@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.background {
+	width: 100vw;
+	height: 100vh;
+	position:absolute;
+	background-size: cover;
+	background-position: center center;
+	background-image: url(superman.png);
+}
+.pencil {
+	width: 60px;
+	height: 60px;
+	position: relative;
+	top: 20px;
+	left: 15.6vw;
+	top: 40px;
+}
+.group {
+	width: 80vw;
+	margin-top: 14.5vh;
+	margin-left: 15.6vw;
+}
+h1 {
+	font-size: 42px;
+	color: #f7ecdf;
+	font-family: "bebas-neue";
+	text-rendering: optimizeLegibility;
+	line-height: 1em;
+    text-transform: none;
+    letter-spacing: .3px;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+p {
+	font-size: 22px;
+    color: #f7ecdf;
+    line-height: 1.3em;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: 300;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+}
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: wrap;
+    -webkit-align-content: space-between;
+    align-content: space-between;
+    margin-left: 15.6vw;
+    margin-top: 33vh;
+    width: 60vw;
+    height: 8vh;
+}
+.flex-item {
+	width: 36px;
+	height: 36px;
+	margin: 0 2vh;
+}
+

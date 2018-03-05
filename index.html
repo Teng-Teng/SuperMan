@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="superman.css">
+	<script>
+		$(document).ready(function() {
+			$(".flex-container img").hover(function() {
+			    $(this).siblings().css("opacity",0.5);
+			},function(){
+			    $(this).siblings().css("opacity",1);
+		  	});
+		});
+</script>
+</head>
+<body>
+	<div class="background">
+		<img class="pencil" src="pencil.png" alt="pencil">
+
+		<div class="group">
+			<div class="title">
+				<h1>A PASSIONATE PIXEL PUNCHING PROBLEM <br>SOLVING PERFECTIONIST</h1>
+			</div>
+
+			<div class="paragraph">
+				<p>The Design & Art Direction of Brad James.<br> Complete Website Coming Soon.</p>
+			</div>
+		</div>
+		<div class="flex-container">
+			<img class="flex-item" src="twitter.png" alt="twitter">
+			<img class="flex-item" src="linkedin.png" alt="linkedin">
+			<img class="flex-item" src="dribble.png" alt="dribble">
+			<img class="flex-item" src="instagram.png" alt="instagram">
+		</div>
+	</div>
+	
+</body>
+</html>
