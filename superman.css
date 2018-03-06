@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+body {
+	font-size: 21px;
+}
 .background {
 	width: 100vw;
 	height: 100vh;
@@ -24,7 +27,7 @@
 	margin-left: 15.6vw;
 }
 h1 {
-	font-size: 42px;
+	font-size: 2rem;
 	color: #f7ecdf;
 	font-family: "bebas-neue";
 	text-rendering: optimizeLegibility;
@@ -39,7 +42,7 @@ h1 {
     -webkit-margin-end: 0px;
 }
 p {
-	font-size: 22px;
+	font-size: 1rem;
     color: #f7ecdf;
     line-height: 1.3em;
     text-transform: none;
