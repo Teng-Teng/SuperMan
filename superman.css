@@ -68,4 +68,7 @@ p {
 	height: 36px;
 	margin: 0 2vh;
 }
+.flex-container img {
+	border-radius: 50px;
+}
 
